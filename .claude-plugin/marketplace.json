@@ -1,17 +1,19 @@
 {
-  "name": "alexei-led-claude-router",
+  "name": "queglay-claude-router",
   "owner": {
-    "name": "Alexei Ledenev",
-    "url": "https://github.com/alexei-led"
+    "name": "queglay",
+    "url": "https://github.com/queglay"
   },
-  "description": "Native model and effort routing for Claude Code",
+  "description": "Pinned fork of alexei-led/claude-router at reviewed commit 7599fb5 (v1.3.0)",
   "plugins": [
     {
       "name": "router",
-      "description": "Model and effort routing for the main conversation, advised by a prompt classifier, with native Mod controls and unchanged subagent choices.",
+      "description": "Model and effort routing (pinned, reviewed 2026-10-07)",
       "source": {
         "source": "github",
-        "repo": "alexei-led/claude-router"
+        "repo": "queglay/claude-router",
+        "ref": "main",
+        "sha": "7599fb515e2926851140b2ee56a37242f760bb0b"
       }
     }
   ]
